@@ -1,0 +1,33 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/crazy-iridescent-smoke-abstract-background-free-image.jpeg?w=600&quality=80);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: cemter;
+}
+
+h1{
+    text-align: center;
+    color:blueviolet;
+    font-size: 50p;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p{
+    text-align:justify;
+    font-size: 20px;
+}
+
+button{
+    display: block;
+    margin: 30px auto;
+    background-color: brown;
+    border-radius: 100px
+}
+a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+
+}

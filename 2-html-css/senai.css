@@ -1,0 +1,29 @@
+body{
+    background-image: url("imagem/ceu.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}    
+h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 40px;
+    color:rgb(11, 11, 218);
+}
+
+p{
+    text-align:justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+button{
+    display: block;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+
+a{
+    display: block;
+    color: rgb(9, 50, 83);
+    text-decoration: none;
+}
