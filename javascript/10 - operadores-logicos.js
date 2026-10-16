@@ -13,11 +13,11 @@ console.log('= Comparando Conteudo =')
 console.log(`São diferentes?, ${idade != numero}`)
 
 console.log('\n=or=')
-console.log(`V or V = ${true && true}`)
-console.log(`V or F = ${true && false}`)
-console.log(`F or F = ${false && false}`)
-
-console.log('\n=AND=')
 console.log(`V or V = ${true || true}`)
 console.log(`V or F = ${true || false}`)
 console.log(`F or F = ${false || false}`)
+
+console.log('\n=AND=')
+console.log(`V or V = ${true && true}`)
+console.log(`V or F = ${true && false}`)
+console.log(`F or F = ${false && false}`)

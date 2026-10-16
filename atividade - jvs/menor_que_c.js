@@ -8,7 +8,7 @@ if (a + b > c){
 }
 else if (a + b < c){
     console.log(a + b)
-    console.log(`A soma de ${a} e ${b} é menor quw ${c}`)
+    console.log(`A soma de ${a} e ${b} é menor que ${c}`)
 }
 else
     console.log('São iguais')
