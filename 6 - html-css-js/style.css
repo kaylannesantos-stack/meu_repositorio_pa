@@ -1,0 +1,63 @@
+/* Reset do Navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaf4ff;
+    color: #0f2d52;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #0c5ab6;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px 10px;
+    border: 1px solid #7aa7d6;
+    border-radius: 5px;
+    width: 180px;
+}
+
+button {
+    background: #0c5ab6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#resultado-aqui {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(12, 90, 182, 0.15);
+}
+
+#resultado-aqui h2 {
+    color: #0c5ab6;
+    margin-bottom: 10px;
+}
+
+#resultado-aqui p {
+    margin: 6px 0;
+}
+
