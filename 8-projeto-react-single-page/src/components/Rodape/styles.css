@@ -1,0 +1,30 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 24px;
+  padding: 22px clamp(24px, 5vw, 64px);
+  color: #bfc1c3;
+  background: var(--ink);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p:last-child {
+  color: var(--yellow);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

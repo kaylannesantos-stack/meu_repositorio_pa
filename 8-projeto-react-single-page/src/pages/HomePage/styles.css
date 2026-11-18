@@ -1,0 +1,42 @@
+main > div {
+  position: relative;
+  width: min(820px, 100%);
+  padding: clamp(32px, 6vw, 68px);
+  background: #fff;
+  border: 1px solid var(--line);
+  box-shadow: 12px 12px 0 var(--yellow-soft);
+}
+
+main > div::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 8px;
+  background: var(--yellow);
+}
+
+main h2 {
+  max-width: 650px;
+  margin-bottom: 24px;
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+main p {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  font-size: clamp(0.95rem, 2vw, 1.08rem);
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  main > div {
+    box-shadow: 7px 7px 0 var(--yellow-soft);
+  }
+}
